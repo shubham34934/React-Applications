@@ -7,7 +7,7 @@ export default class Header extends React.Component{
        <nav className="navbar navbar-default">
           <div className="container">
              <div className="navbar-header">
-               <a className="navbar-brand">React Apps</a>
+               <a className="navbar-brand">React Applications</a>
              </div>
              <ul className="nav navbar-nav">
                <li className="active"><a>Home</a></li>

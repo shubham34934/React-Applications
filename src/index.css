@@ -1,3 +1,39 @@
 .list{
-  height: 400px;
+}
+.footer{
+   position: fiexd;
+   width:100%;
+   bottom:0;
+   height:10px;
+   min-height: 40px;
+   margin-bottom: 0px;
+   border: 1px solid transparent;
+}
+.h8{
+   display: block;
+   font-size: 12px;
+   padding-top: 10px ;
+   padding-bottom: 15px;
+}
+.picture {
+  padding: 10px;
+  margin: 10px;
+  border:12px solid black;
+  width : 50%;
+}
+.sidebar{
+  float:right;
+}
+.list{
+  background-color: grey;
+  padding: 1%;
+}
+
+.listItems{
+  width : 20%;
+  margin:2%;
+  padding:2%;
+  background-color: white;
+  display: inline-block;
+
 }
