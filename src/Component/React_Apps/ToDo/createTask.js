@@ -8,10 +8,13 @@ export default class CreateTask extends React.Component{
       error:null
     };
   }
+  style(){
+
+  }
    render(){
      return(
           <form onSubmit={this.handleSubmit.bind(this)}>
-           <input ref="create" placeholder="What do i need to do?" type="text"/>
+           <input ref="create" onChange={this.style()} placeholder="What do i need to do?" type="text"/>
            <button> Create </button>
            {this.state.error}
           </form>

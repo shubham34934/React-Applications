@@ -1,8 +1,10 @@
 import React from 'react';
-import Calc from './React_Apps/Calculator/mainCalc';
+import Calculator from './React_Apps/Calculator/mainCalc';
 import ToDo from './React_Apps/ToDo/toDo';
 import Contacts from './React_Apps/Contacts/contacts';
 import TicTac from './React_Apps/TicTacToe/main';
+import Calc from './React_Apps/Flames/mainCalc0';
+
 
 
 export default class App extends React.Component{
@@ -22,10 +24,9 @@ export default class App extends React.Component{
              <TicTac/>
             </div>
             <div className='listItems'>
-             <Calc/>
             </div>
-            <div className='listItems'>
-             <Calc/>
+            <div>
+              <Calculator/>
             </div>
           </div>
      );

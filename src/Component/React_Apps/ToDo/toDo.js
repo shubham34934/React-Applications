@@ -25,7 +25,7 @@ export default class ToDo extends React.Component{
           <div>
              React Todo App
              <CreateTask  tasks={this.state.tasks} createTask={this.createTask.bind(this)}/>
-             <ToDoList tasks={this.state.tasks} onDelete={this.onDelete.bind(this)} toggleTask={this.toggleTask.bind(this)} onSave={this.onSave.bind(this)}/>
+             <ToDoList    tasks={this.state.tasks} onDelete={this.onDelete.bind(this)} toggleTask={this.toggleTask.bind(this)} onSave={this.onSave.bind(this)}/>
           </div>
      );
    }
